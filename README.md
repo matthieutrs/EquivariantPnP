@@ -27,8 +27,8 @@ We consider algorithms where gradients (or proximal operators) of explicit prior
 x_{k+1} = \text{D}(x_k - \gamma \nabla f(x_k)),
 ```
 
-where $\text{D}$ is a denoiser. In our paper, we show that enforcing equivariance of the denoiser can improve the Lipschitz constant of the denoiser, and hence the stability of the algorithm.
-While a trivial way to enforce equivariance is to perform an  averaging of the denoiser's output over a group of transformations as $\text{D}\_{\mathcal{G}} = \frac{1}{|G|} \sum\_{g \in \mathcal{G}} T\_g^{-1} \text{D}(T\_g)$, we propose to use a Monte-Carlo estimation of the equivariant denoiser at each step of the algorithm. The resulting algorithm reads
+where $\text{D}$ is a denoiser. In our paper, we show that enforcing equivariance of the denoiser with respect to a group of geometric transformations (such as rotations) can improve the Lipschitz constant of the denoiser, and hence the stability of the algorithm.
+While a trivial way to enforce equivariance with respect to a group of transforms $\mathcal{G}$ is to perform an averaging of the denoiser's output over the group of transformations as $\text{D}\_{\mathcal{G}} = \frac{1}{|G|} \sum\_{g \in \mathcal{G}} T\_g^{-1} \text{D}(T\_g)$, we propose to use a Monte-Carlo estimation of the equivariant denoiser at each step of the algorithm. The resulting algorithm reads
 
 ``` math
 \begin{align*}
