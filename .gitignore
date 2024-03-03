@@ -1,0 +1,26 @@
+# Mac
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Config
+config.json
+
+results/
+*__pycache__*
+*.pyc
+.ipynb_checkpoints/
+
+# Files
+*.pt
+*.h5
+*.png
+*.pth
+*.ckpt
+*.tar.gz
+*tmp
+*.tar
+
+!summary_eq.png
+

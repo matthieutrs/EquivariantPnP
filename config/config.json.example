@@ -1,0 +1,4 @@
+{
+    "ROOT_DATASET": "pth/to/datasets/",
+    "PATH_MRI_DATA": "pth/to/mri/dataset/"
+}
