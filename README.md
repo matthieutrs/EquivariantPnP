@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2312.01831)
 
-[camera-ready (soon!)]()
+[CVPR paper](https://openaccess.thecvf.com/content/CVPR2024/html/Terris_Equivariant_Plug-and-Play_Image_Reconstruction_CVPR_2024_paper.html)
 
 [Matthieu Terris](https://matthieutrs.github.io/), [Thomas Moreau](https://tommoral.github.io/about.html), [Nelly Pustelnik](http://perso.ens-lyon.fr/nelly.pustelnik/), [Julián Tachella](https://tachella.github.io/).
 
